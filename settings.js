@@ -4,6 +4,6 @@ module.exports = {
   prefix: ".",
   version: "5.2.1",
   commandMode: "public",
-  maxStoreMessages: 500,
+  maxStoreMessages: 200,
   storeWriteInterval: 10000
 };
