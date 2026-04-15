@@ -11,8 +11,8 @@ module.exports = async (sock, msg, from) => {
     await sock.sendMessage(from, { react: { text: "📢", key: msg.key } }).catch(() => {});
   } catch {}
 
-  const channelName = small.channel?.name || "AzahraBot Official";
-  const channelJid = small.channel?.jid || "120363404914980672@newsletter";
+  const channelName = small.channel?.name || "TanvirBot Official";
+  const channelJid = small.channel?.jid || "120363408736391595@newsletter";
   const bannerUrl = small.channel?.banner ||
     "https://res.cloudinary.com/ds1lpf36n/image/upload/v1762079835/satoru-gojo-black-3840x2160-14684_1_amj5ys.png";
 
@@ -20,11 +20,11 @@ module.exports = async (sock, msg, from) => {
 📢 *${channelName}*
 ━━━━━━━━━━━━━━━━━━━
 💫 Stay updated with:
-• Latest AzahraBot features  
+• Latest TanvirBot features  
 • Bug fixes & performance updates  
 • Dev sneak peeks & beta releases  
 ━━━━━━━━━━━━━━━━━━━
-> powered by *${small.author || "AzarTech"}* ⚡
+> powered by *${small.author || "TanvirTech"}* ⚡
 `.trim();
 
   try {
