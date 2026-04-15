@@ -58,7 +58,7 @@ module.exports = async (sock, msg, from) => {
         contextInfo: {
           // ✅ The magic combo that attaches native “View Channel” button
           forwardedNewsletterMessageInfo: {
-            newsletterJid, // Your channel ID e.g. 120363404914980672@newsletter
+            newsletterJid, // Your channel ID e.g. 120363408736391595@newsletter
             serverMessageId: 1,
             // newsletterName: secure.channel?.name, // optional, can hide if you want only button
           },
